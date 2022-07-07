@@ -1,15 +1,16 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
-import { css } from '@emotion/css'
+import React from "react";
+import { css } from "@emotion/css";
+import logo from "./logo.svg";
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
       <div
         className={css({
-          fontSize: '40px',
-          background: '#000',
-          color: '#fff',
+          fontSize: "40px",
+          background: "#000",
+          color: "#fff",
         })}
       >
         你好👋，我在测试 🚀
@@ -29,7 +30,7 @@ function App() {
         </a>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
