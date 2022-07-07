@@ -1,10 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
+import { css } from '@emotion/css'
 function App() {
   return (
     <div className="App">
+      <div
+        className={css({
+          fontSize: '40px',
+          background: '#000',
+          color: '#fff',
+        })}
+      >
+        你好👋，我在测试 🚀
+      </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,7 +29,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
