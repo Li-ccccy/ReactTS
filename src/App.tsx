@@ -1,7 +1,5 @@
 import React from "react";
 import { css } from "@emotion/css";
-import logo from "./logo.svg";
-import "./App.css";
 
 function App() {
   return (
@@ -13,22 +11,16 @@ function App() {
           color: "#fff",
         })}
       >
-        你好👋，我在测试 🚀
+        你好👋，我在测试1233444 🚀
       </div>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="shadow-xl  w-60 h-20">
+        <form>
+          <input className="border rounded-md border-red-500 border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" />
+          <button className="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
+            测试123
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
