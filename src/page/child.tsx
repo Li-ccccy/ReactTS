@@ -21,8 +21,8 @@ function Child() {
     console.log("我开始修改了啊");
     await setTest(test + 1);
     console.log(Ford);
-    // setParams({ age: "50", sort: "-1" });
-    //  console.log("我执行了改变参数方法");
+    setParams({ age: "50", sort: "-1" });
+    console.log("我执行了改变参数方法");
   };
   return (
     <div>
