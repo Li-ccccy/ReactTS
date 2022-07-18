@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import Paly from "./page/paly";
 import Child from "./page/child";
 import Transition from "./page/useTransition";
+import Mobx from "./page/mobx";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 const App = React.lazy(() => import("./page/App"));
@@ -25,6 +26,7 @@ root.render(
           <Route element={<Child />} path="/child/:id"></Route>
           {/* useTransition 使用 */}
           <Route element={<Transition />} path="/Transition"></Route>
+          <Route element={<Mobx />} path="/mobx"></Route>
           <Route element={<App />} path="*"></Route>
         </Routes>
       </React.Suspense>
